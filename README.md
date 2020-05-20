@@ -2,7 +2,7 @@
 
 ![](IMG.jpg)
 
-### Things to be Covered
+### Topics
 * React
 * Ajax
 * jQuery
