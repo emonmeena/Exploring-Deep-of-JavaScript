@@ -2,10 +2,9 @@
 
 ![](IMG.jpg)
 
-### Topics
+### Topics (For next 5 Days)
 * React
 * Ajax
 * JSON
 * jQuery
 * AngularJS
-
