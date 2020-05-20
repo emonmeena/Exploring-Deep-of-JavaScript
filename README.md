@@ -5,7 +5,7 @@
 ### Topics
 * React
 * Ajax
+* JSON
 * jQuery
-* Ajax
 * AngularJS
 
