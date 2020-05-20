@@ -1,4 +1,11 @@
 # Exploring-Libraries-of-JavaScript
-♟learning-Id = {`React-${Ajax}-${JSON}-${jQuery}-${AngularJS}`}
 
 ![](IMG.jpg)
+
+### Things to be Covered
+* React
+* Ajax
+* jQuery
+* Ajax
+* AngularJS
+
