@@ -1,8 +1,12 @@
-// function paraChange(){
-//     return  document.getElementById("para").innerHTML= "para changed"    //this is simple function
-// }
+function paraTxtChange(){
+    return  document.getElementById("para").innerHTML= "Para changed"    //this is simple function or non Arrow function
+}
 
-paraChange=()=>document.getElementById("para").style.fontSize= "24px" //this is Arrow function
+paraChange=()=> { 
+    paraTxtChange();
+    document.getElementById("para").style.fontSize= "24px"  //this is Arrow function
+    document.getElementById("paraChanger").innerHTML="Done"
+}
 
 var isOff = true;
 bulbSwitch=()=> {
