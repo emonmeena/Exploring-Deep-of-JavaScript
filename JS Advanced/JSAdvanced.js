@@ -47,3 +47,43 @@ toUpperCase() and toLowerCase()
 string.split("splitter") -imp- splits the string for splitter and returns an array
 endUptoSrings 
 */
+
+/*
+Accessing Array -just type the array n u will get comma seperted elements.
+arr.length
+arr[arr.length] = newElement. -to add an element at the end-
+arr instanceOf Array -returns true.
+Array.isArray(arr) -returns true.
+endUptoArrayBasics
+*/
+/*
+Array Metods
+.push(ele) -adds an element.
+.pop(ele) - rems last ele.
+arr.join("joint") -returns sring of eles joined by joint.
+arr1.concat(arr2, arr3)
+arr.splice()
+arr.toString()
+arr.unshift(ele) -adds ele at begining.
+arr.shift() -rems the ele at begining.
+arr.slice(startIndex, endIndex) -returns a sub array not inclds last ele.
+endUptoarrayMethods 
+*/
+/*
+Array Iteration
+arr.sort()
+arr.reverse()
+arr.forEach()
+arr.map()
+arr.filter()
+arr.reduce()
+arr.every()
+arr.some()
+arr.indexOf()
+arr.lastIndexOf()
+arr.find()
+arr.findIndex()
+endUptoArraysIteration
+*/
+
+
