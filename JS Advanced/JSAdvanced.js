@@ -21,3 +21,12 @@ bulbSwitch=()=> {
     }
            
 }
+
+//In JS redeclaring the variable will not destroy the value stored
+//Array and Object declaration in JS
+var arr = ["This", "is", "Array"];
+var object = {
+    arr,
+    i:10,
+    string: "Beautiful"
+};
