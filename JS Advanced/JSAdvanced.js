@@ -1,11 +1,19 @@
-import React, {Component} from 'react'
+// function paraChange(){
+//     return  document.getElementById("para").innerHTML= "para changed"    //this is simple function
+// }
 
-export default class JSAdvanced extends Component{
-    render(){
-        return(
-            <div>
-                foo bar
-            </div>
-        );
+paraChange=()=>document.getElementById("para").style.fontSize= "24px" //this is Arrow function
+
+var isOff = true;
+bulbSwitch=()=> {
+    if(isOff){document.getElementById("bulb").src="https://www.w3schools.com/js/pic_bulbon.gif"
+              document.getElementById("switch").innerHTML="Switch OFF"  
+        isOff = false;
     }
+    else {
+        document.getElementById("bulb").src="https://www.w3schools.com/js/pic_bulboff.gif" 
+        document.getElementById("switch").innerHTML="Switch ON"  
+        isOff = true;
+    }
+           
 }
