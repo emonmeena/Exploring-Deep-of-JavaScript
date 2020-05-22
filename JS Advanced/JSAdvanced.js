@@ -168,5 +168,5 @@ totalTags = () =>{
 var y = document.getElementsByTagName("p");
 document.getElementById("button").innerHTML = y.length +" and "+document.anchors.length+" "
 +document.anchors+" "+document.anchors[0]+" "+document.anchors[0].innerHTML; 
-//here we can see that all anchors are stored in an arraay of document Object
+//here we can see that all anchors are stored in an arraay of HTML-Object Collection
 }
