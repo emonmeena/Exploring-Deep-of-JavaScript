@@ -85,5 +85,54 @@ arr.find()
 arr.findIndex()
 endUptoArraysIteration
 */
+/*
+typeOf(var)
+var.constructor
+-converting nums into strings:
+    -String(int)
+    -var.toString()
+Home made isArray() and isDate()    
+*/
+/*Boolean
+Boolean(condition) returns true or false.
+The boolean value of 0, empty String, undefined, NaN, null and false is false.
+*/
+/*
+JavaScript conditionals
+Switch cases
+*/
+/* 
+Looping through Objects ... [ for...in approach]
+obj = {var1 = 1, var2 = 2 }
+for(var x in obj){
+    console.log(obj[x])
+    // if we use obj.x - it is undefined.
+}
+endUptoJSloops
+*/
 
+/* 
+JS Err Handling 
+- try catch
+- confirm box 
+*/
+/*
+JS Objects
+create using new keyword
+    * var person = new Object();
+    person.name = "Mayank Meena"
 
+creating JS objects using constructor    
+- function Person(fName, lName, age){
+    this.fristName = fname;
+    this.lastName = lName;
+    this.age = age;
+}
+
+    var member1 = new Person(Mohan, Meena, 30);
+    // now member1 (Object) has properties with firstname, lastname and age.
+
+Similarly we can create JS Objects with inbuilt objects must see - https://www.w3schools.com/js/tryit.asp?filename=tryjs_object_builtin
+delete Obj.property;
+endUptoJSobjects
+    */
