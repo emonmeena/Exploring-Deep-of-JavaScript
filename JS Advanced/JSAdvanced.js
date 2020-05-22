@@ -166,5 +166,7 @@ document.getElementById("para").innerHTML = x.length;
 // displaying total nums of input tags by calling eles with a specific tagName
 totalTags = () =>{
 var y = document.getElementsByTagName("p");
-document.getElementById("button").innerHTML = y.length;
+document.getElementById("button").innerHTML = y.length +" and "+document.anchors.length+" "
++document.anchors+" "+document.anchors[0]+" "+document.anchors[0].innerHTML; 
+//here we can see that all anchors are stored in an arraay of document Object
 }
