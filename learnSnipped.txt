@@ -12,5 +12,8 @@ JavaScript offers many built-in libraries and functionalities such as
 * AngularJS - extends HTML with new Attributes.
              -is Perfect for Single Page Application (SPAs).
 
-21th May 20             
-JavaScript   
+Timeline -
+>21th May 20             
+* JavaScript  - w3Schools -> https://www.w3schools.com/js/js_examples.asp 
+>22nd May 20
+* JavaScript
