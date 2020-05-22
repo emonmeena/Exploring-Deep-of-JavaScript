@@ -136,3 +136,25 @@ Similarly we can create JS Objects with inbuilt objects must see - https://www.w
 delete Obj.property;
 endUptoJSobjects
     */
+/*
+HTML DOM ->
+-The Document Object
+* document.cookie // displays cookies associated with the web page.
+* document.domain // displays domain name of the server loaded the page.
+* document.lastModified // displays Date and Time, document last modified.
+* document.title
+* document.URL
+*/
+// Replace the content of a document page ->
+changeDoc=()=>{
+    document.open('text/html', "replace");
+    document.write("<h1>Doc has been changed</h1>");
+    document.close();
+}
+//OPen a new Window and add some Content
+newWindow=()=>{
+    var w = window.open();
+    w.open("text/html", "replace");
+    w.write("This is On new Window");
+    w.close();
+}
