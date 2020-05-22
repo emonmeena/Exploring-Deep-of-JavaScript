@@ -163,3 +163,8 @@ totalButton = ()=>{
 var x = document.getElementsByName("button"); 
 document.getElementById("para").innerHTML = x.length;
 } 
+// displaying total nums of input tags by calling eles with a specific tagName
+totalTags = () =>{
+var y = document.getElementsByTagName("p");
+document.getElementById("button").innerHTML = y.length;
+}
