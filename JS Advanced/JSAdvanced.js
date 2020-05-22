@@ -158,3 +158,8 @@ newWindow=()=>{
     w.write("This is On new Window");
     w.close();
 }
+// Displaying the number of elements with a specific name using .length
+totalButton = ()=>{
+var x = document.getElementsByName("button"); 
+document.getElementById("para").innerHTML = x.length;
+} 
