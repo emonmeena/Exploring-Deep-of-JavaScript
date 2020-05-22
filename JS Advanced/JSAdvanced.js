@@ -166,7 +166,7 @@ document.getElementById("para").innerHTML = x.length;
 // displaying total nums of input tags by calling eles with a specific tagName
 totalTags = () =>{
 var y = document.getElementsByTagName("p");
-document.getElementById("button").innerHTML = y.length +" and "+document.anchors.length+" "
-+document.anchors+" "+document.anchors[0]+" "+document.anchors[0].innerHTML; 
-//here we can see that all anchors are stored in an arraay of HTML-Object Collection
+document.getElementById("button").innerHTML = y.length +" and "+document.links.length+" "
++document.links+" "+document.links[0]+" "+document.links[0].innerHTML; 
+//here we can see that all links are stored in an arraay of object HTML Collection
 }
