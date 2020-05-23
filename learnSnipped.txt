@@ -19,4 +19,6 @@ Timeline -
 > 22nd May 20
 * JavaScript  - (Intermediate) 
 > 23rd May 20
-* PC Performance boosted
+* PC Performance boosted --> (JS HTML input -- JS Browser) this Range is Most Important
+> 24th May 20 
+* JavaScript  - (Advanced)
