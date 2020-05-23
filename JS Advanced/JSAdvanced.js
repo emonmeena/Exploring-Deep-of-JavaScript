@@ -169,4 +169,5 @@ var y = document.getElementsByTagName("p");
 document.getElementById("button").innerHTML = y.length +" and "+document.links.length+" "
 +document.links+" "+document.links[0]+" "+document.links[0].innerHTML; 
 //here we can see that all links are stored in an arraay of object HTML Collection
-}
+} //Similar goes for other tags eg. [forms, images]
+

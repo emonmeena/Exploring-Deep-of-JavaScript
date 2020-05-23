@@ -13,7 +13,10 @@ JavaScript offers many built-in libraries and functionalities such as
              -is Perfect for Single Page Application (SPAs).
 
 Timeline -
->21th May 20             
-* JavaScript  - w3Schools -> https://www.w3schools.com/js/js_examples.asp 
->22nd May 20
-* JavaScript
+  JSAdvanced -w3Schools -> https://www.w3schools.com/js/js_examples.asp 
+> 21th May 20             
+* JavaScript  - (Basic) 
+> 22nd May 20
+* JavaScript  - (Intermediate) 
+> 23rd May 20
+* PC Performance boosted
