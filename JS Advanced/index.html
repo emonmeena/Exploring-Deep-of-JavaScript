@@ -22,9 +22,9 @@
     <a href="https://github.com/mayank-genesis" rel="noopener noreferrer" target="_blank" style="text-decoration: none; color: black; font-size: 18px;">GitHub</a>
     <br/><br/>
     Fill the  below form to Contact me.<br/><br/>
-    <form id="form1">
-        First Name <input type="text"><br/><br/>
-        Last Name <input type="text"><br/><br/>
+    <form id="form1" onsubmit="submitFunction()" action="https://github.com/mayank-genesis">
+        First Name <input type="text" id ="fname" onblur="Cap()"><br/><br/>
+        Last Name <input type="text"  id ="lname"  onblur="Cap()"><br/><br/>
         <input type="submit"/>
         <input type="reset"/><br/><br/>
         Select your Country <select id="select" >

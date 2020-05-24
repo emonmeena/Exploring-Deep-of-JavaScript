@@ -182,3 +182,22 @@ JS HTML Inputs
 * document.getElementbyId("select").length //get the number of Items in dropDown list
 endUpto JS HTML Inputs
 */
+/*
+JS HTML Events
+* onblur = "function()" when a user leaves the input area 
+* onChange
+* onFocus
+* onselects
+
+*/
+Cap=()=>{
+    var x = document.getElementById("fname");
+    var y = document.getElementById("lname");
+    x.value = x.value.toUpperCase();
+    y.value = x.value.toUpperCase();
+
+}
+submitFunction = ()=> {
+fname = document.forms[0].fname.value;
+alert("Hello "+fname+"! now you'll be redirected to My GitHub");
+}
