@@ -229,4 +229,4 @@ cursorDetect=(e)=>{
     var y = e.clientY;
     document.getElementById("show coordinates").innerHTML = "("+x+","+y+")"
 } 
-refresh=()=>{document.getElementById("show coordinates").innerHTML=""}
+refresh=()=>{document.getElementById("show coordinates").innerHTML=""} //resetting the coordinates show window to none
