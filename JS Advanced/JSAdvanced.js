@@ -177,4 +177,8 @@ JS HTML Inputs
 * document.getElementById().disabled = true; // similar goes for other properties.
 * .form.id // displays the id of form the button belongs to.
 */
-// Form Object
+// Form Object 
+/*
+* document.getElementbyId("select").length //get the number of Items in dropDown list
+endUpto JS HTML Inputs
+*/
