@@ -258,5 +258,5 @@ keyDetect=(e)=>{
 }
 /*
 * event.type //to read the type of event.
-endUptoJSBrowser.
+endUptoJSEvents.
 */
