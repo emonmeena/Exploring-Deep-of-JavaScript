@@ -225,7 +225,7 @@ eleDetect2=(e)=>{
 
 // Cursor Coordinates
 cursorDetect=(e)=>{
-    var x = e.clientX;
+    var x = e.clientX;  //screenX and screenY for relative to screen
     var y = e.clientY;
     document.getElementById("show coordinates").innerHTML = "("+x+","+y+")"
 } 
@@ -252,4 +252,11 @@ onresize=()=>{
 }
 /*
 Done Upto Load Events
+*/
+keyDetect=(e)=>{
+    document.getElementById("show coordinates").innerHTML = e.keyCode;
+}
+/*
+* event.type //to read the type of event.
+endUptoJSBrowser.
 */
