@@ -185,10 +185,14 @@ endUpto JS HTML Inputs
 /*
 JS HTML Events
 * onblur = "function()" when a user leaves the input area 
-* onChange
-* onFocus
+* onchange
+* onfocus
 * onselects
-
+* onreset
+* onkeydown
+* onkeypress
+* onkeyup
+* 
 */
 Cap=()=>{
     var x = document.getElementById("fname");
@@ -199,5 +203,22 @@ Cap=()=>{
 }
 submitFunction = ()=> {
 fname = document.forms[0].fname.value;
-alert("Hello "+fname+"! now you'll be redirected to My GitHub");
+alert("Hello "+fname+"! now you'll be redirected to My GitHub");  //
 }
+
+/*
+Mouse Events
+* onmouseover/onmouseout
+* onmousedown/onmouseup
+*/
+// onMouseDown and onMouseUp examples:
+changeColor=(element, color)=>{
+element.style.color = color;
+}
+//Note these functions aare commented to render other properties hence skipping alerts
+eleDetect1=(e)=>{
+// alert(e.srcElement.tagName); // for finding the Body's subObjects
+}
+eleDetect2=(e)=>{
+    // alert("This is inside detect2 "+e.target.tagName); // when we click on Form Object firstly this function called then above one 
+    }

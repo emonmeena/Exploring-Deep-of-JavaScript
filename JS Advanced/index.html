@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSAdvanced</title>
 </head>
-<body style="text-align: center;">
+<body style="text-align: center;" onmousedown="eleDetect1(event)">
     <p style="font-size: 24px;">JavaScript Advanced</p>
     <p id="para">
         This is the paragraph.
@@ -21,13 +21,17 @@
     <button id="button" name ="button" onclick="totalTags()">How Many "p" and "a" tags are there in this document?</button><br/><br/>
     <a href="https://github.com/mayank-genesis" rel="noopener noreferrer" target="_blank" style="text-decoration: none; color: black; font-size: 18px;">GitHub</a>
     <br/><br/>
-    Fill the  below form to Contact me.<br/><br/>
-    <form id="form1" onsubmit="submitFunction()" action="https://github.com/mayank-genesis">
+    Fill the  below form to Contact me.
+    <br/>
+    <h1>Click anywhere in the Form section</h1>
+    <br/>
+    <form id="form1" onsubmit="submitFunction()" action="https://github.com/mayank-genesis" onmousedown="eleDetect2(event)">
         First Name <input type="text" id ="fname" onblur="Cap()"><br/><br/>
         Last Name <input type="text"  id ="lname"  onblur="Cap()"><br/><br/>
         <input type="submit"/>
         <input type="reset"/><br/><br/>
-        Select your Country <select id="select" >
+            <h2 onmousedown="changeColor(this, 'red')" onmouseup="changeColor(this, 'green')"> Select your Country </h2>
+            <select id="select" >
             <option>India</option>
             <option>America</option>
             <option>Russia</option>
