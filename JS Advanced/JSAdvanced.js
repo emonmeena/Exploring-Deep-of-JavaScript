@@ -171,3 +171,10 @@ document.getElementById("button").innerHTML = y.length +" and "+document.links.l
 //here we can see that all links are stored in an arraay of object HTML Collection
 } //Similar goes for other tags eg. [forms, images]
 
+/*
+JS HTML Inputs
+>> Button Object
+* document.getElementById().disabled = true; // similar goes for other properties.
+* .form.id // displays the id of form the button belongs to.
+*/
+// Form Object
