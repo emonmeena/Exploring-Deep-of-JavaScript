@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JSAdvanced</title>
 </head>
-<body style="text-align: center;" onmousedown="eleDetect1(event)">
+<body style="text-align: center;" onmousedown="eleDetect1(event)" >
     <p style="font-size: 24px;">JavaScript Advanced</p>
     <p id="para">
         This is the paragraph.
@@ -37,8 +37,12 @@
             <option>Russia</option>
             <option>China</option>
         </select>
-    </form>
-    
+    </form><br/><br/>
+    <h3>Hover Inside the Region below</h3>
+    <div style="width: 200px; height: 100px; border: 1px solid black; margin: auto;" onmousemove="cursorDetect(event)" onmouseout="refresh()">
+        
+     <p  id="show coordinates"></p>   
+    </div>
     <script src = './JSAdvanced.js'/>
 </body>
 </html>

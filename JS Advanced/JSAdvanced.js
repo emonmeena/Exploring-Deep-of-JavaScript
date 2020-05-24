@@ -222,3 +222,11 @@ eleDetect1=(e)=>{
 eleDetect2=(e)=>{
     // alert("This is inside detect2 "+e.target.tagName); // when we click on Form Object firstly this function called then above one 
     }
+
+// Cursor Coordinates
+cursorDetect=(e)=>{
+    var x = e.clientX;
+    var y = e.clientY;
+    document.getElementById("show coordinates").innerHTML = "("+x+","+y+")"
+} 
+refresh=()=>{document.getElementById("show coordinates").innerHTML=""}
