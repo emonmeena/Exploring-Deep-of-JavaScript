@@ -230,3 +230,26 @@ cursorDetect=(e)=>{
     document.getElementById("show coordinates").innerHTML = "("+x+","+y+")"
 } 
 refresh=()=>{document.getElementById("show coordinates").innerHTML=""} //resetting the coordinates show window to none
+//listening double click
+doubleClick=(e)=>{
+    document.getElementById("dblclick").innerHTML = "Your "+e.target.tagName+" is double clicked"
+}
+/*
+* onload
+* onerror
+* onunload
+* onresize
+*/
+f=()=>{
+//    alert('h4 is loading')
+}
+
+// listening to the Height and Width of HTML page
+onresize=()=>{
+    var w = window.outerWidth;
+    var h = window.outerHeight;
+    document.getElementById("size").innerHTML= "Width: "+w+" Height"+h;
+}
+/*
+Done Upto Load Events
+*/
