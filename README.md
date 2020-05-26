@@ -8,3 +8,4 @@
 * JSON
 * jQuery
 * AngularJS
+* [w3schools](https://www.w3schools.com/js/default.asp)

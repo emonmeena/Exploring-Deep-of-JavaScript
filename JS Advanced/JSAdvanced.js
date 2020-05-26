@@ -260,3 +260,9 @@ keyDetect=(e)=>{
 * event.type //to read the type of event.
 endUptoJSEvents.
 */
+
+var staticUrl = 'https://github.com/mayank-genesis';
+$.getJSON(staticUrl, function(data) {
+  console.log("This is an example of a static JSON file being served by a web server.")
+  console.log(data);
+});
