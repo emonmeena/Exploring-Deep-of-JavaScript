@@ -2,7 +2,7 @@
 
 ![](IMG.jpg)
 
-### Topics (For next 5 Days)
+### Topics
 * React
 * Ajax
 * JSON
